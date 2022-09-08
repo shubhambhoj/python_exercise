@@ -1,0 +1,7 @@
+print("hello world !!!")
+print("hello aain")
+print("i like typing this ")
+print("this is fun")
+print("yey ! printing")
+print("I'd mush rather you 'not'")
+print('I "said" do not touch this')
