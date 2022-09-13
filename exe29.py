@@ -7,13 +7,13 @@ people = int(input("Enter number of people: "))
 cats = int(input("Enter number of cats: "))
 dogs = int(input("Enter number of dogs: "))
 
-if people < cats :
+if people < cats and dogs < cats :
     print("too many cats! The world is doomed!")
 
-if people > cats :
-    print("Not many cats! The world is saved!")
+if people > cats and people > dogs :
+    print("Not many cats! and dogs! The world is saved!")
 
-if people < dogs :
+if people < dogs and cats < dogs :
     print("The world is drooled on!")    
 
 if people > dogs :
