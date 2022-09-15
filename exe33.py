@@ -1,8 +1,8 @@
 
-i = 0               # initializing i
-numbers = []        # creating empty list
+i = 0                                        # initializing i
+numbers = []                                 # creating empty list
 
-while i < 6 :       # syntax of while loop
+while i < 6 :                                # syntax of while loop
     print(f" At the top i is {i}")
     numbers.append(i)
 
