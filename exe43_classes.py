@@ -11,6 +11,7 @@ class Engine(object):
     
     def play(self):
         print("function play")
+        
 
 class Death(Scene):
 
@@ -42,7 +43,7 @@ class Map(object):
 
     def __init__(self, start_scene):
         #self.a = start_scene
-        print(start_scene)
+        # print(start_scene)
 
     def next_scene(self, Scene_name):
         print("this is next scene method")
