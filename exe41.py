@@ -59,7 +59,7 @@ def convert(snippet, phrase):
 
         results.append(result)
 
-        return results
+        return results, param_names
 
 
 # keep going untill they hit CTRL-D
