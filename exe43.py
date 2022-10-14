@@ -96,7 +96,8 @@ class CentralCorridor(Scene):
 
         else :
             print("DOES NOT COMPUTE!")
-            return 'central_corridor'
+            # return 'central_corridor'
+            return action
 
 
 class laserWeaponArmory(Scene):
@@ -139,6 +140,7 @@ class laserWeaponArmory(Scene):
                 together. You decide to sit there, and finally the
                 Gothons blow up the ship from their ship and you die.
                 """))
+            return action
             return 'death'
 
 class TheBridge(Scene):
@@ -182,6 +184,7 @@ class TheBridge(Scene):
         
         else :
             print("DOES NOT COMPUTE")
+            return action
             return "the_bridge"
 
 class EscapePod(Scene):
@@ -250,5 +253,10 @@ class Map(object):
 
 
 a_map = Map("the_bridge")
+a_game = Engine(a_map)
+a_game.play()
+
+
+a_map = Map("central_corridor")
 a_game = Engine(a_map)
 a_game.play()
